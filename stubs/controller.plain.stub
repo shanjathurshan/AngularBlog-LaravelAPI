@@ -1,0 +1,19 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class {{ class }} extends Controller
+{
+    public function index()
+    {
+        return "index working!";
+    }
+
+    public function create()
+    {
+        return "create working!";
+    }
+}
